@@ -6,21 +6,36 @@
     top: 0;
     z-index: 3;
     min-height: 500px;
+    
 
  .logo {
     display: block;
     padding:  8px 0;
+    text-decoration: none;
+    
 
     img {
         display: block;
         margin: 8px auto;
-        width: 24px;
+        width: 45px;
         height: auto; 
-        
+        background: white;
+        border-radius: 50%;
+   
         &.sub-logo{
             width: 50px;
         }
     }
+
+
+  }
+
+   .text-logo{
+    padding: 8px 0;
+    margin-left: 5px;
+    text-decoration: none;
+    color:#fff;
+    border-bottom: 1px solid transparent;
   }
   nav {
     display: block;
