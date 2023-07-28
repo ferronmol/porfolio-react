@@ -41,7 +41,7 @@ const Contact = () => {
  return (
     <>
       <div className="container contact-page">
-        <div className="text-zone">
+        <div className="text-zone text-contact">
             <h1>
                 <AnimatedLetters 
                 letterClass={letterClass}
@@ -51,6 +51,7 @@ const Contact = () => {
             </h1>
             <p>
             I am interested in being hired by a company to be able to learn.However, if you have other request or question, don't hesitate to contact me using bellow form either.
+            Check out my GitHub account to see my completed projects.
             </p>
             <div className="contact-form">
                 <form ref={refForm} onSubmit={sendEmail}>
@@ -86,7 +87,7 @@ const Contact = () => {
                 </form>
             </div>
         </div>
-        <div className="info-map">
+        <div className='info-map'>
             JF Design (Juan Ferron)
             <br />
             Talavera de la Reina (Toledo) Spain

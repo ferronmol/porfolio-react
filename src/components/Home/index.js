@@ -3,6 +3,7 @@ import './index.scss'
 import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import Loader from 'react-loaders';
+import PhotoPersonal from '../../assets/images/personalimg.jpeg';
 
 
 
@@ -25,9 +26,13 @@ const Home = () => {
          <div className="container home-page">
             <div className="text-zone">
                 <h1>
+                
+                
                     <span className={letterClass}>H</span> 
                     <span className={`${letterClass} _12`}>i,</span> 
+                    <img src={PhotoPersonal} alt="myphoto" />
                 <br /> 
+               
                 <span className={`${letterClass} _13`}>I</span> 
                 <span className={`${letterClass} _14`}>'m  </span> 
                 <span>  </span>
