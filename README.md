@@ -1,6 +1,6 @@
 
 Link: https://luxury-brioche-90d4e3.netlify.app
-<img src:D:\logo\imagenes\porfolio2.png>
+![home page](D:\logo\imagenes\porfolio2.png)
 
 
 # Getting Started with Create React App
