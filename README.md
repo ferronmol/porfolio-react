@@ -1,7 +1,7 @@
 
 Link: https://luxury-brioche-90d4e3.netlify.app
 
-![home page](porfolio.png)
+![home page](porfolio2.png)
 
 
 # Getting Started with Create React App
